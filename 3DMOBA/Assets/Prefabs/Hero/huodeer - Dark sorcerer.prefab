@@ -315,6 +315,9 @@ GameObject:
   - component: {fileID: 7738282895802951314}
   - component: {fileID: 8345615905059421270}
   - component: {fileID: 4837983929098288021}
+  - component: {fileID: 1440938504}
+  - component: {fileID: 1440938505}
+  - component: {fileID: 1440938510}
   m_Layer: 0
   m_Name: huodeer - Dark sorcerer
   m_TagString: Untagged
@@ -349,7 +352,7 @@ Animator:
   m_GameObject: {fileID: 7738282895793558814}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 18d5ac34412a62c4abd1c6af8dfb2b16, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: de1076eaa5b938e4e85beec52e821837, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -388,6 +391,46 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.61, y: 3.69, z: 0.52}
   m_Center: {x: 0, y: 1.98, z: 0}
+--- !u!114 &1440938504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738282895793558814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e65171ac2c38a54ab73349ce8918790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1440938505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738282895793558814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615f52a556a03db479725da9f9fdc23d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDirection: {x: 0, y: 0, z: 0}
+  walkSpeed: 2
+  walkForce: 20
+  smoothSpeed: 0.1
+--- !u!114 &1440938510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738282895793558814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e517878b6179dc84bb01599aef676188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7738282895793558816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1228,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7738282895793850738}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.020923004, y: -10.337598, z: -90.586685}
 --- !u!1 &7738282895793558866
 GameObject:
   m_ObjectHideFlags: 0
